@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ItemID: CrateItem
   TargetInventoryName: MainInventory
-  Usable: 1
-  Consumable: 1
+  Usable: 0
+  Consumable: 0
   ConsumeQuantity: 1
   Equippable: 0
   Droppable: 0
@@ -68,7 +68,7 @@ MonoBehaviour:
     MaximumRotation: {x: 0, y: 0, z: 0}
     MinimumScale: {x: 1, y: 1, z: 1}
     MaximumScale: {x: 1, y: 1, z: 1}
-  MaximumStack: 10
+  MaximumStack: 1000
   ItemClass: 0
   TargetEquipmentInventoryName: 
   EquippedSound: {fileID: 0}
