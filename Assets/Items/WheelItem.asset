@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9fac9bd89dcafc049b19f543ccf8fd57, type: 3}
-  m_Name: MerchandiseItem
+  m_Name: WheelItem
   m_EditorClassIdentifier: 
-  ItemID: MerchandiseItem
+  ItemID: WheelItem
   TargetInventoryName: MainInventory
   Usable: 0
   Consumable: 1
@@ -22,11 +22,10 @@ MonoBehaviour:
   CanMoveObject: 1
   CanSwapObject: 1
   Quantity: 1
-  ItemName: Merchandise
-  ShortDescription: A crate of merchandise to be sold in Capital
-  Description: Maybe it contains silk from Kimura, spices from Hirakaynia or wood
-    from Aendrim.
-  Icon: {fileID: 0}
+  ItemName: Cart Wheel
+  ShortDescription: A spare wheel for your cart
+  Description: You wont be able to leave these mountains without a spare cart wheel
+  Icon: {fileID: -5745060858953901384, guid: 4945384f0c36b66438afbde6c84c632b, type: 3}
   Prefab: {fileID: 0}
   DropProperties:
     Shape: 0
