@@ -22,10 +22,9 @@ MonoBehaviour:
   CanMoveObject: 1
   CanSwapObject: 1
   Quantity: 1
-  ItemName: Stimpack
-  ShortDescription: Good for health, bad for education
-  Description: A medical kit or syringe used commonly in sci-fi movies and games
-    to heal the user of wounds.
+  ItemName: Pumpkin
+  ShortDescription: everyone likes pumpkin seeds
+  Description: You can make so much stuff with a pumpkin
   Icon: {fileID: 1734734598363785258, guid: 4945384f0c36b66438afbde6c84c632b, type: 3}
   Prefab: {fileID: 6924451785195672974, guid: cb713a9ce942aa04f82b8890ecffc87b, type: 3}
   DropProperties:
