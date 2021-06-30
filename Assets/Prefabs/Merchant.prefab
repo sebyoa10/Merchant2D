@@ -534,7 +534,7 @@ MonoBehaviour:
   AbilityPermitted: 1
   BlockingMovementStates: 
   BlockingConditionStates: 
-  WallJumpForce: {x: 10, y: 2}
+  WallJumpForce: {x: 10, y: 3}
   ShouldReduceNumberOfJumpsLeft: 1
   ForceMode: 0
   ForceFlipTowardsDirection: 0
