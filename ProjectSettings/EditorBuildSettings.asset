@@ -224,4 +224,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/StartForest.unity
     guid: 2a70f908b04f82d428a6ece2db64089c
+  - enabled: 1
+    path: Assets/Scenes/EndMountain.unity
+    guid: 2436ddd03007dc549a776596628f9a5d
   m_configObjects: {}
