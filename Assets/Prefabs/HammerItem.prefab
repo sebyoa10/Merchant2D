@@ -13,8 +13,9 @@ GameObject:
   - component: {fileID: -3939168794684489470}
   - component: {fileID: 8807627795279911118}
   - component: {fileID: -865051299309607249}
+  - component: {fileID: 2631888748682222205}
   m_Layer: 8
-  m_Name: Hammer
+  m_Name: HammerItem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -104,7 +105,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.0625, y: 0.8125}
+    oldSize: {x: 1.65, y: 0.65}
     newSize: {x: 2.0625, y: 0.8125}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -152,3 +153,20 @@ MonoBehaviour:
   IgnoreCheckpointsAlwaysRespawn: 1
   AssociatedCheckpoints: []
   RespawnFeedback: {fileID: 0}
+--- !u!114 &2631888748682222205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1539940448294621904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2d96dc71d76c4e2ab8eb19d92d40d5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Item: {fileID: 11400000, guid: bda6e0211dd25d74a819b6408bd63f8b, type: 2}
+  Quantity: 1
+  PickableIfInventoryIsFull: 0
+  DisableObjectWhenDepleted: 0
+  PickFeedbacks: {fileID: 0}

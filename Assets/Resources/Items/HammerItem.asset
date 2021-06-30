@@ -9,11 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9fac9bd89dcafc049b19f543ccf8fd57, type: 3}
+  m_Script: {fileID: 11500000, guid: 16f005fbcfc61684c82bf819bce9d63b, type: 3}
   m_Name: HammerItem
   m_EditorClassIdentifier: 
   ItemID: HammerItem
-  TargetInventoryName: MainInventory
+  TargetInventoryName: WeaponInventory
   Usable: 1
   Consumable: 0
   ConsumeQuantity: 1
@@ -25,8 +25,8 @@ MonoBehaviour:
   ItemName: Hammer
   ShortDescription: to smash something. Or maybe defend yourself
   Description: An old hammer. You can use it do dig up stuff or to ward off ennemies
-  Icon: {fileID: -5745060858953901384, guid: 4945384f0c36b66438afbde6c84c632b, type: 3}
-  Prefab: {fileID: 0}
+  Icon: {fileID: 4751279504820561396, guid: 4945384f0c36b66438afbde6c84c632b, type: 3}
+  Prefab: {fileID: 1539940448294621904, guid: 77e6b04eff8c5884b8d12b8ef2a784f0, type: 3}
   DropProperties:
     Shape: 0
     NormalToSpawnPlane: {x: 0, y: 1, z: 0}
@@ -76,3 +76,7 @@ MonoBehaviour:
   MovedSound: {fileID: 0}
   DroppedSound: {fileID: 0}
   UseDefaultSoundsIfNull: 1
+  EquippableWeapon: {fileID: 1539940448294621910, guid: 4559a4fd311a7da40992b469be4928f1,
+    type: 3}
+  AutoEquipMode: 1
+  HandleWeaponID: 1

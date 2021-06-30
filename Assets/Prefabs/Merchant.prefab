@@ -18,7 +18,6 @@ GameObject:
   - component: {fileID: 11485350}
   - component: {fileID: 11455042}
   - component: {fileID: 11449144}
-  - component: {fileID: 11468356}
   - component: {fileID: 11421110}
   - component: {fileID: 11431242}
   - component: {fileID: 11473620}
@@ -59,6 +58,7 @@ Transform:
   m_Children:
   - {fileID: 465368}
   - {fileID: 6131849178255137752}
+  - {fileID: 7359691812785953741}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -371,25 +371,6 @@ MonoBehaviour:
   InATunnel: 0
   MoveCameraTarget: 1
   CameraTargetOffset: {x: 0, y: -3, z: 0}
---- !u!114 &11468356
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 119040}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 157b891c059034cea94ae0c9e235df50, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AbilityStartFeedbacks: {fileID: 0}
-  AbilityStopFeedbacks: {fileID: 0}
-  AbilityPermitted: 0
-  BlockingMovementStates: 
-  BlockingConditionStates: 
-  ShakeParameters: {x: 1.5, y: 0.5, z: 1}
-  DiveAcceleration: 2
 --- !u!114 &11421110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -974,7 +955,7 @@ MonoBehaviour:
   BlockingConditionStates: 
   InitialWeapon: {fileID: 0}
   CanPickupWeapons: 1
-  WeaponAttachment: {fileID: 0}
+  WeaponAttachment: {fileID: 7359691812785953741}
   ForceWeaponScaleResetOnEquip: 0
   AutomaticallyBindAnimator: 1
   AmmoDisplayID: 0
@@ -5825,3 +5806,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &7391111240393780756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7359691812785953741}
+  m_Layer: 0
+  m_Name: WeaponAttachement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7359691812785953741
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7391111240393780756}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.5265646, y: -0.086260885, z: 1}
+  m_LocalScale: {x: 2.0715513, y: 2.078786, z: 3.333333}
+  m_Children: []
+  m_Father: {fileID: 425048}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
