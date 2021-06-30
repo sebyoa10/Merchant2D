@@ -18,7 +18,7 @@ MonoBehaviour:
   Consumable: 0
   ConsumeQuantity: 1
   Equippable: 1
-  Droppable: 0
+  Droppable: 1
   CanMoveObject: 1
   CanSwapObject: 1
   Quantity: 1
@@ -78,5 +78,5 @@ MonoBehaviour:
   UseDefaultSoundsIfNull: 1
   EquippableWeapon: {fileID: 1539940448294621910, guid: 4559a4fd311a7da40992b469be4928f1,
     type: 3}
-  AutoEquipMode: 1
+  AutoEquipMode: 0
   HandleWeaponID: 1
