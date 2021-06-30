@@ -8312,7 +8312,7 @@ MonoBehaviour:
   DrawContentInInspector: 1
   Content:
   - {fileID: 0}
-  InventoryType: 0
+  InventoryType: 1
   TargetTransform: {fileID: 0}
   Persistent: 1
   ResetThisInventorySaveOnStart: 0

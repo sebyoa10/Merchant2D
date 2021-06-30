@@ -5544,7 +5544,7 @@ MonoBehaviour:
   - {fileID: 0}
   InventoryType: 0
   TargetTransform: {fileID: 0}
-  Persistent: 1
+  Persistent: 0
   ResetThisInventorySaveOnStart: 1
 --- !u!4 &801302917
 Transform:
@@ -5600,8 +5600,8 @@ MonoBehaviour:
   - {fileID: 0}
   InventoryType: 1
   TargetTransform: {fileID: 0}
-  Persistent: 1
-  ResetThisInventorySaveOnStart: 0
+  Persistent: 0
+  ResetThisInventorySaveOnStart: 1
 --- !u!4 &841542542
 Transform:
   m_ObjectHideFlags: 0
